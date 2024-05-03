@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="count_pages">
+        <ul>
+          <li><a href="index.html" target="_blanck">index</a></li>
+          <li><a href="news.html" target="_blanck">news</a></li>
+          <li><a href="contacts.html" target="_blanck">contacts</a></li>
+          <li><a href="cart.html" target="_blanck">cart</a></li>
+          <li><a href="questions.html" target="_blanck">questions</a></li>
+          <li><a href="sertificates.html" target="_blanck">sertificates</a></li>
+          <li><a href="catalog.html" target="_blanck">catalog</a></li>
+          <li><a href="advantages.html" target="_blanck">advantages</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <style>
+      .count_pages a:before {
+        counter-increment: list1;
+        content: counter(list1) ". ";
+      }
+      .count_pages li {
+        list-style: none;
+        margin-bottom: 0px;
+        border: 1px solid #ccc;
+        border-top: none;
+        width: 100%;
+      }
+      .count_pages {
+        margin: 0;
+        width: 400px;
+        margin: auto;
+        font-family: sans-serif;
+        margin-top: 40px;
+        max-width: 100%;
+        border-top: 1px solid #ccc;
+        counter-reset: list1;
+        margin-bottom: 40px;
+      }
+      .count_pages ul {
+        margin: 0;
+        padding: 0;
+      }
+      .count_pages a {
+        font-size: 18px;
+        color: #15669f;
+        text-decoration: none;
+        display: block;
+        padding: 6px 10px;
+      }
+    </style>
+  </body>
+</html>

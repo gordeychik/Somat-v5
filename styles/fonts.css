@@ -1,0 +1,15 @@
+@font-face {
+  font-display: swap;
+  font-family: "HeliosCond";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/HeliosCond.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "HeliosCond";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/HeliosCond-Bold.woff") format("woff");
+}
